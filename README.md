@@ -35,3 +35,16 @@ conda activate medibot
 ```cmd
 pip install -r requirements.txt
 ```
+
+
+```cmd
+git add .
+```
+
+```cmd
+git commit -m "folder structure added"
+```
+
+```cmd
+git push origin main
+```
