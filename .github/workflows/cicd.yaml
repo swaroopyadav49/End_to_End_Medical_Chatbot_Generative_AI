@@ -32,7 +32,7 @@ jobs:
           IMAGE_TAG: latest
         run: |
           docker build -t 443370711849.dkr.ecr.us-east-1.amazonaws.com/medicalchatbot:latest .  
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          docker push 443370711849.dkr.ecr.us-east-1.amazonaws.com/medicalchatbot:latest
           echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 
   Continuous-Deployment:
