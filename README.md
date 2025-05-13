@@ -153,4 +153,4 @@ open up localhost:
    - PINECONE_API_KEY
    - OPENAI_API_KEY
 
-# medicalbot-machine
+medicalbot-machine
